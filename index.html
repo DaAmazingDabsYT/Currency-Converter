@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency Converter</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
 <body>
-    <div class="container">
- <h2>Currency Converter</h2>
- <form>
-         <div class="amount">
-        <p>Enter Amount</p>
-        <input value="1" type="text" />
-         </div>
-         <div class="dropdown">
-       <div class="from">
-        <p>From</p>
-       <div class="select-container">
-        <img src="https://flagsapi.com/US/flat/64.png" />
-        <select name="from">
-            <option>Hi</option>
-            <option>Bye</option>
-        </select>
+<nav class="navbar navbar-expand-sm oc navbar-dark">
+<div class="container-fluid">
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div id="myNav" class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link">Vision</a>
+</li>
+<li class="nav-item">
+<a class="nav-link">Explore</a>
+</li>
+<li class="nav-item">
+<a class="nav-link">Blogs</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="jumbotron text-center">
+<h1>Codeyoung</h1>
+<h4>Coding for kids</h4>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter email address">
+    <span class="input-group-text bg-danger" id="basic-addon2">Subscribe</span>
+  </div>
+</div>
+<div class="container-fluid about">
+<div class="row">
+<div class="col-md-9 abtcdy">
+<h1>ABOUT CODEYOUNG</h1>
+<h4>Codeyoung is the platform where your kids can let their imagination run wild. Students are taught to be creative, innovative, and use coding in the most unusual way possible.</h4>
+<p>Founded by Shailendra Dhakad and Rupika Taneja, Codeyoung is Live Interactive coding platform for kids. Globally active with 20,000+ students from 10+ countries. Our courses are well distributed and tailored for different age groups.</p>
+</div>
+<div class="col-md-3 abtcdy2">
+<img src="https://media.istockphoto.com/id/1389937723/vector/cartoon-planet-earth-3d-vector-icon-on-white-background.jpg?s=612x612&w=0&k=20&c=hntEYVS5xepGQi1AIpRipUTYnH2Tp_S1TXS5M-pQe3A=">
+</div>
+</div>
+</div>
+<div class="container-fluid about">
+  <div class="col-md-3 abtcdy2">
+    <img src="https://media.istockphoto.com/id/1389937723/vector/cartoon-planet-earth-3d-vector-icon-on-white-background.jpg?s=612x612&w=0&k=20&c=hntEYVS5xepGQi1AIpRipUTYnH2Tp_S1TXS5M-pQe3A=">
     </div>
-</div>
-<i class="fa-solid fa-arrow-right-arrow-left"></i>
-<div class="to">
- <p>To</p>
-<div class="select-container">
-<img src="https://flagsapi.com/IN/flat/64.png" />
-<select name="to">
-    <option>Hi</option>
-            <option>Bye</option>
-</select>
-</div>
-</div>
-<div class="msg">1USD = 80INR</div>
-<button>Get Exchange Rate</button>
-</form>
-</div>
-    <script src="script.js"></script>
-    <script src="codes.js"></script>
+  <div class="col-md-9 abtcdy">
+  <h1>ABOUT CODEYOUNG</h1>
+  <h4>Codeyoung is the platform where your kids can let their imagination run wild. Students are taught to be creative, innovative, and use coding in the most unusual way possible.</h4>
+  <p>Founded by Shailendra Dhakad and Rupika Taneja, Codeyoung is Live Interactive coding platform for kids. Globally active with 20,000+ students from 10+ countries. Our courses are well distributed and tailored for different age groups.</p>
+  </div>
+  </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,70 +1,40 @@
 *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
-html,body{
-    height:100%;
-    width:100%;
+.oc{
+    background-color: rgb(246, 108, 40);
 }
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.navbar .navbar-nav>li>a:hover{
+    background-color: white;
+    color:rgb(246, 108, 40);
+    cursor: pointer;
 }
-.container{
-    background-color: cyan;
-    width:50vh;
-    min-height: 45vh;
-    border-radius: 1rem;
-    padding:2rem;
+.jumbotron{
+    background-color:rgb(246, 108, 40);
+    padding:100px 3%;
+    color:white;
 }
-form{
-    margin:2rem 0 1rem 0;
+.jumbotron h1{
+    font-size:70px;
 }
-input{
-   padding:8px; 
-   border-radius: 5px;
-   font-size: 16px;
-   border:1px solid lightgray;
-   outline:none;
-    width:100%;
+.jumbotron h4{
+    margin-top:10px;
+    margin-bottom:25px;
+}
+.about{
+    padding-inline:3%;
+}
+.abtcdy h1{
+    margin-bottom: 30px;
     margin-top: 10px;
 }
-.dropdown{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 12px;
+.abtcdy h4{
+    margin-bottom: 30px;
 }
-.dropdown i{
-    font-size: 1.5rem;
-}
-.select-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 0.5rem;
-    width:6rem;
-    border-radius: 1px solid lightgray;
-}
-.select-container img{
-    max-width: 2rem;
-}
-.select-container select{
-    width:auto;
-    font-size: 1rem;
-}
-.msg{
-    margin:2rem 0;
-}
-button{
-    height: 3rem;
-    width:100%;
-    font-size: 18px;
-    color:red;
-    background-color: rgb(240, 240, 31);
-    border-radius: 5px;
-    border:none;
+
+.abtcdy2 img{
+    height:350px;
 }
